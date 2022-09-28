@@ -1,2 +1,4 @@
 # go_server
-A base server in golang for jump-starting an HTTP API endpoint microservice project.
+An extremely simple base server in golang for jump-starting an HTTP API endpoint microservice project.
+
+Just build and run
