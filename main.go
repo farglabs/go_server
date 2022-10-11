@@ -24,6 +24,7 @@ func main() {
 	}
 	tls_cert := config.Section("server").Key("tls_cert").String()
 	tls_key := config.Section("server").Key("tls_key").String()
+	// TODO: Should there be an error check for these? ^^
 
 	port, port_err := config.Section("server").Key("http_port").Int()
 
