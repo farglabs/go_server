@@ -1,0 +1,16 @@
+# Minimal pipeline
+# More to come
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Run started successfully!
+  displayName: 'Run a verification and feedback script'
+
+- script: |
+    echo TODO: add other tasks to build, test, and deploy project.
+  displayName: 'Run the main multi-line script'
