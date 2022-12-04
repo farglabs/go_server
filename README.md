@@ -4,4 +4,16 @@ An extremely simple base server in golang for jump-starting an HTTP API endpoint
 At this point, all served code/data should be contained within main.go (or at least called from there). The inability to serve static HTML files (and other files) is intentional; if you want to take on that security risk, go use Apache or Nginx.
 
 ## Instructions
-Just build and run
+Just build and run!
+
+Build:
+
+``$ go build``
+
+Run on Linux:
+
+``$ ./server``
+
+Run on Windows:
+
+``$ server.exe``
