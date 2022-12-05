@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	// Some useful packages for go newbies looking to for ideas:
 	/*
 		"bufio"
 		"html"
