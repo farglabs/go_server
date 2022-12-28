@@ -51,9 +51,9 @@ func main() {
 	/* End of SECTION 1 (Make sure to set a response variable and then w.Write([]byte(response)) ) */
 	/* EXAMPLE SECTION 2+: This can be duplicated as many times as needed (or even removed) */
 		} else if r.URL.String() == "/your-url-example/here" {
-			response := "your response would go here"
+			response := "your html-formatted response would go here"
 			w.Write([]byte(response))
-	/* End of SECTION 2+ (Make sure to set change "/your-url-example/here" to a valid web path string) */
+	/* End of SECTION 2+ (Make sure to change "/your-url-example/here" to a valid web path string) */
 		} else {
 			http.NotFound(w, r)
 		}
