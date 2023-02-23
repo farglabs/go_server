@@ -45,6 +45,7 @@ func main() {
 		if r.URL.String() == "/" {
 	/* EXAMPLE SECTION 1: This is what's returned at the root of your web server */
 			response := "<!DOCTYPE html>\n<html>\n<head>\n<script src="https://unpkg.com/htmx.org@1.8.5" integrity="sha384-7aHh9lqPYGYZ7sTHvzP1t3BAfLhYSTy9ArHdP3Xsr9/3TlGurYgcPBoFmXX2TX/w" crossorigin="anonymous"></script>\n</head>\n<body>\nHey there! You're running in the following mode:\n<br>\n"
+			/* Note that a specific version of HTMX is linked here; this can be copied to other responses. For documentation, see: https://htmx.org/ */
 			response += config.Section("").Key("app_mode").String()
 			response += "\n<hr>\n<bold>Feel free to change that in your settings.ini</bold>\n</body>\n</html>"
 			w.Write([]byte(response))
