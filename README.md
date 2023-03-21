@@ -5,10 +5,13 @@ At this point, all served code/data should be contained within main.go (or at le
 
 ## Install Instructions
 
-First, make sure you have Go installed on your server or build machine: [go-install]: https://go.dev/doc/install "Go installation steps"
+[go-install]: https://go.dev/doc/install "Go installer download and instructions"
+
+First, make sure you have Go installed on your server or build machine: [Go installation steps][go-install]
 
 
-Just build and run!
+
+Then just build and run!
 
 Build:
 
